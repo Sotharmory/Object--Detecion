@@ -15,7 +15,6 @@ from sklearn.model_selection import train_test_split
 import joblib
 np.random.seed(42)
 
-# Giữ nguyên các hàm xử lý XML
 def FindNumberBoundingBoxes(root):
     index = 0
     while True:
