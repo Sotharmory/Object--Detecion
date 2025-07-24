@@ -12,7 +12,6 @@ def load_random_test_image(test_path):
     """
     Load one random image from test dataset
     """
-    # Get all image paths
     image_files = glob.glob(os.path.join(test_path, "*.jpg"))
     
     # Randomly select one image
