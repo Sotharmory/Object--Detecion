@@ -1,0 +1,13 @@
+Model: fruit_detector_rf
+Test Accuracy: 0.9167
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       apple       0.90      0.90      0.90        20
+      banana       0.94      0.84      0.89        19
+      orange       0.91      1.00      0.95        21
+
+    accuracy                           0.92        60
+   macro avg       0.92      0.91      0.91        60
+weighted avg       0.92      0.92      0.92        60
